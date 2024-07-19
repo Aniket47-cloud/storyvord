@@ -1,0 +1,212 @@
+@media screen and (max-width: 1440px) {
+  .responsive-upload-box,
+  .responsive-result-box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .responsive-upload-box,
+  .responsive-result-box {
+    width: 90%;
+  }
+  
+  .responsive-button,
+  .responsive-generate-button {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .responsive-leaf {
+    display:none;
+  }
+  
+  .responsive-result-row {
+    flex-direction: column;
+  }
+  
+  .responsive-result-item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .responsive-options-row {
+    flex-direction: column;
+  }
+  
+  .responsive-option-column {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-title {
+    font-size: 2rem;
+  }
+  
+  .responsive-subtitle {
+    font-size: 1rem;
+  }
+  
+  .responsive-upload-area {
+    font-size: 1.5rem;
+  }
+  
+  .responsive-button,
+  .responsive-generate-button,
+  .responsive-submit-button {
+    font-size: 1.2rem;
+  }
+  
+  .responsive-result-item p {
+    font-size: 1rem;
+  }
+  
+  .responsive-result-item p.text-3xl {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .responsive-upload-box,
+  .responsive-result-box {
+    width: 95%;
+    padding: 1.5rem 1rem;
+  }
+  
+  .responsive-title {
+    font-size: 1.5rem;
+  }
+  
+  .responsive-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .responsive-upload-area {
+    font-size: 1.2rem;
+    height: auto;
+    min-height: 100px;
+  }
+  
+  .responsive-button,
+  .responsive-generate-button,
+  .responsive-submit-button {
+    width: 90%;
+    font-size: 0.1rem;
+  }
+  
+  .responsive-result-display {
+    width: 90%;
+  }
+  
+  .responsive-result-item p {
+    font-size: 0.9rem;
+  }
+  
+  .responsive-result-item p.text-3xl {
+    font-size: 1.2rem;
+  }
+}
+
+/* Additional styles to prevent content overflow */
+.responsive-upload-box,
+.responsive-result-box {
+  overflow: hidden;
+}
+
+.responsive-result-item,
+.responsive-option-column {
+  word-wrap: break-word;
+}
+@media screen and (max-width: 480px) {
+  .responsive-upload-box,
+  .responsive-result-box {
+    width: 95%;
+    padding: 1rem 0.5rem;
+  }
+  
+  .responsive-title {
+    font-size: 1.3rem;
+  }
+  
+  .responsive-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .responsive-upload-area {
+    font-size: 1rem;
+    height: auto;
+    min-height: 80px;
+    padding: 0.5rem;
+  }
+  
+  .responsive-button,
+  .responsive-generate-button,
+  .responsive-submit-button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    white-space: normal;
+    height: auto;
+    min-height: 50px;
+  }
+  
+  .responsive-result-display {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .responsive-upload-box,
+  .responsive-result-box {
+    padding: 0.75rem 0.25rem;
+  }
+  
+  .responsive-title {
+    font-size: 1.1rem;
+  }
+  
+  .responsive-subtitle {
+    font-size: 0.7rem;
+  }
+  
+  .responsive-upload-area {
+    font-size: 0.4rem;
+    min-height: auto;
+    padding: 0.25rem;
+  }
+  
+  .responsive-button,
+  .responsive-generate-button,
+  .responsive-submit-button {
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    min-height: 40px;
+  }
+  
+  .responsive-result-display {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+}
+
+/* Additional styles to prevent content overflow */
+.responsive-upload-box,
+.responsive-result-box {
+  overflow: hidden;
+}
+
+.responsive-button,
+.responsive-generate-button,
+.responsive-submit-button,
+.responsive-upload-area,
+.responsive-result-display {
+  max-width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

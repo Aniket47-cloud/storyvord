@@ -1,0 +1,23 @@
+@media (max-width:1200px){
+     .leaf {
+        display:none
+      }
+      h2{
+        color:black;
+        
+    }
+}
+@media (max-width: 500px){
+    .nurse{
+        width:20px;
+    }
+}
+.nurse{
+    width:150px;
+}
+
+@media (max-width:650px){
+    h2{
+        display:none;
+    }
+}

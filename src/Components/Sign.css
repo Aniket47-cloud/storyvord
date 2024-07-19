@@ -1,0 +1,38 @@
+@media (max-width:1460px) {
+    .responsive-background-image {
+        display: none;
+    }
+}
+
+@media (max-width:900px) {
+    .responsive-aside p {
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width:750px) {
+    .responsive-form-input::placeholder {
+        font-size: 12px;
+    }
+
+    .responsive-aside p {
+        font-size: 22px;
+
+    }
+
+    .responsive-aside button{
+        font-size: 20px;
+        width: 70%
+    }
+    .signup-button p{
+        font-size:20px;
+        
+       }
+}
+@media (max-width:400px){
+    .signup-button p{
+        font-size:16px;
+        
+       }
+}

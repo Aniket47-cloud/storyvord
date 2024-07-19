@@ -1,0 +1,21 @@
+
+@keyframes slideDown {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 500px;
+      opacity: 1;
+    }
+  }
+  
+  .lg\:hidden.block {
+    animation: slideDown 0.3s ease-out;
+  }
+  @media (max-width: 1023px) {
+    .mx-auto > ul,
+    .mx-auto > div {
+      display: none;
+    }
+  }
